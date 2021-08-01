@@ -1,4 +1,9 @@
 package guru.qa;
 
-public class SimpleFileDowloadTest {
+import com.codeborne.selenide.Selenide;
+
+public class SimpleFileDownloadTest {
+    void simpleDownload() {
+        Selenide.open("");
+    }
 }
